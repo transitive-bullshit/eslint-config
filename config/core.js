@@ -10,7 +10,7 @@ module.exports = {
     'no-array-constructor': 'error',
     'no-caller': 'error',
     'no-cond-assign': ['error', 'except-parens'],
-    // 'no-console': 'error',
+    'no-console': 'error',
     'no-const-assign': 'error',
     'no-control-regex': 'error',
     'no-debugger': 'error',

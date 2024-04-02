@@ -32,7 +32,7 @@
   ],
   "scripts": {
     "test": "run-s test:*",
-    "test:format": "prettier --check \"**/*.{js,ts,tsx}\"",
+    "test:format": "prettier --check \"**/*.{js,json}\"",
     "test:lint": "eslint .",
     "release": "np"
   },

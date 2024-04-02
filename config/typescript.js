@@ -129,6 +129,19 @@ module.exports = {
       {
         ignoreProperties: true
       }
+    ],
+
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': [
+      'error',
+      {
+        classes: false,
+        functions: false,
+        variables: false,
+        enums: false,
+        typedefs: false,
+        ignoreTypeReferences: true
+      }
     ]
   },
 
