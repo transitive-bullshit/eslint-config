@@ -19,20 +19,13 @@ module.exports = {
     'simple-import-sort/imports': [
       'error',
       {
+        // The default grouping, but with type imports first in each group.
         groups: [
-          // Side effect imports.
           ['^\\u0000'],
-          // Node.js builtins prefixed with `node:`.
-          ['^node:'],
-          // Packages.
-          // Things that start with a letter (or digit or underscore), or `@` followed by a letter.
-          ['^[@~]?\\w'],
-          // Absolute imports and other imports such as Vue-style `@/foo`.
-          // Anything not matched in another group.
-          ['^'],
-          // Relative imports.
-          // Anything that starts with a dot.
-          ['^\\.']
+          ['^node:.*\\u0000$', '^node:'],
+          ['^@?\\w.*\\u0000$', '^@?\\w'],
+          ['(?<=\\u0000)$', '^'],
+          ['^\\..*\\u0000$', '^\\.']
         ]
       }
     ],
