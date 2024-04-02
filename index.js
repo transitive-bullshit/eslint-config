@@ -18,10 +18,10 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true
+    es2024: true
   },
 
-  extends: ['./config/core'].map(require.resolve),
+  extends: ['./config/core', './config/unicorn'].map(require.resolve),
 
   overrides: [
     './config/typescript',
