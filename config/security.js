@@ -1,6 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  plugins: ['plugin:security'],
+  plugins: ['security'],
 
   extends: ['plugin:security/recommended-legacy']
 }

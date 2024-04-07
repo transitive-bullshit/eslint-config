@@ -25,7 +25,9 @@ module.exports = {
     es2024: true
   },
 
-  extends: ['./config/core', './config/unicorn'].map(require.resolve),
+  extends: ['./config/core', './config/unicorn', './config/security'].map(
+    require.resolve
+  ),
 
   overrides: [
     './config/typescript',
