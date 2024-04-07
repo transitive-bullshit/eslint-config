@@ -24,6 +24,7 @@ module.exports = {
     'unicorn/no-useless-undefined': 'off',
     'unicorn/no-nested-ternary': 'off',
     'unicorn/prefer-query-selector': 'off',
-    'unicorn/no-array-callback-reference': 'off'
+    'unicorn/no-array-callback-reference': 'off',
+    'unicorn/prefer-ternary': 'off'
   }
 }
