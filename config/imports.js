@@ -43,6 +43,7 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/no-duplicates': ['error', { 'prefer-inline': true }],
     'import/consistent-type-specifier-style': 'off',
+    'import/no-anonymous-default-export': 'off',
     'no-duplicate-imports': 'error'
   }
 }
