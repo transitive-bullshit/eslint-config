@@ -1,7 +1,7 @@
 {
   "name": "@fisch0920/eslint-config",
   "description": "Transitive Bullshit eslint config.",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
   "repository": {
