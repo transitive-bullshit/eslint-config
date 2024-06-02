@@ -25,6 +25,7 @@ module.exports = {
     'unicorn/no-nested-ternary': 'off',
     'unicorn/prefer-query-selector': 'off',
     'unicorn/no-array-callback-reference': 'off',
-    'unicorn/prefer-ternary': 'off'
+    'unicorn/prefer-ternary': 'off',
+    'unicorn/no-array-push-push': 'off'
   }
 }
