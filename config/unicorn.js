@@ -26,6 +26,7 @@ module.exports = {
     'unicorn/prefer-query-selector': 'off',
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/prefer-ternary': 'off',
-    'unicorn/no-array-push-push': 'off'
+    'unicorn/no-array-push-push': 'off',
+    'unicorn/prefer-string-raw': 'off'
   }
 }
