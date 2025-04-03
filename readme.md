@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This package has been replaced by https://github.com/transitive-bullshit/config
+
 # Forked from `@remix-run/eslint-config`
 
 My personal ESlint config used for all projects.
